@@ -570,32 +570,15 @@
                                     );
                                   },
                                 },
-                              ].map((e, t) =>
-                                (0, a.jsxs)(
-                                  "li",
+                              ].map((e) =>
+                                (0, a.jsx)(
+                                  H.Z,
                                   {
-                                    onClick: e.comingSoon ? void 0 : e.onclick,
-                                    children: [
-                                      (0, a.jsx)("div", {
-                                        className: o().Header_links_box_effect,
-                                      }),
-                                      (0, a.jsxs)("div", {
-                                        className: ""
-                                          .concat(o().Header_links_box_button, " ")
-                                          .concat(e.comingSoon ? o().coming_soon : ""),
-                                        "data-tooltip": e.tooltip,
-                                        children: [
-                                          e.title,
-                                          e.comingSoon &&
-                                            (0, a.jsx)("span", {
-                                              className: o().soon_label,
-                                              children: "Soon",
-                                            }),
-                                        ],
-                                      }),
-                                    ],
+                                    className: "".concat(o().more_text),
+                                    text: e.title,
+                                    onClick: e.onclick,
                                   },
-                                  t
+                                  e.title
                                 )
                               ),
                             }),
@@ -665,7 +648,7 @@
                               children: [
                                 {
                                   title: "ZKML",
-                                  onclick: () => window.open("/zkml", "_blank"),
+                                  onclick: () => window.open("https://noya-detail.vercel.app/", "_blank"),
                                 },
                                 {
                                   title: "Docs",

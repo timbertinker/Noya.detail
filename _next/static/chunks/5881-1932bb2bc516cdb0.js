@@ -568,7 +568,7 @@
                                   title: "Borrowing Optimizer",
                                   onclick: () => {
                                     window.open(
-                                      "https://noya.ai/native-borrowing",
+                                      "https://noya-borrow.vercel.app/",
                                       "_blank"
                                     );
                                   },

@@ -557,6 +557,9 @@
                                 },
                                 {
                                   title: "Agent",
+                                  onclick: () => handleProtectedRoute("Agent"),
+                                  comingSoon: !0,
+                                  tooltip: "The DeFi module is currently in development",
                                 },
                                 {
                                   title: "Borrowing Optimizer",

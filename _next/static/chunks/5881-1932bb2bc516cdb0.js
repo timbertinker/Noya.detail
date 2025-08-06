@@ -559,7 +559,7 @@
                                   title: "Agent",
                                   onclick: () => handleProtectedRoute("Agent"),
                                   comingSoon: !0,
-                                  tooltip: "The DeFi module is currently in development",
+                                  tooltip: "The Agent module is currently in development",
                                 },
                                 {
                                   title: "Borrowing Optimizer",
@@ -570,15 +570,32 @@
                                     );
                                   },
                                 },
-                              ].map((e) =>
-                                (0, a.jsx)(
-                                  H.Z,
+                              ].map((e, t) =>
+                                (0, a.jsxs)(
+                                  "li",
                                   {
-                                    className: "".concat(o().more_text),
-                                    text: e.title,
-                                    onClick: e.onclick,
+                                    onClick: e.comingSoon ? void 0 : e.onclick,
+                                    children: [
+                                      (0, a.jsx)("div", {
+                                        className: o().Header_links_box_effect,
+                                      }),
+                                      (0, a.jsxs)("div", {
+                                        className: ""
+                                          .concat(o().Header_links_box_button, " ")
+                                          .concat(e.comingSoon ? o().coming_soon : ""),
+                                        "data-tooltip": e.tooltip,
+                                        children: [
+                                          e.title,
+                                          e.comingSoon &&
+                                            (0, a.jsx)("span", {
+                                              className: o().soon_label,
+                                              children: "Soon",
+                                            }),
+                                        ],
+                                      }),
+                                    ],
                                   },
-                                  e.title
+                                  t
                                 )
                               ),
                             }),
@@ -648,7 +665,7 @@
                               children: [
                                 {
                                   title: "ZKML",
-                                  onclick: () => window.open("https://noya-detail.vercel.app/", "_blank"),
+                                  onclick: () => window.open("/zkml", "_blank"),
                                 },
                                 {
                                   title: "Docs",

@@ -557,15 +557,15 @@
                                 },
                                 {
                                   title: "Agent",
-                                  onclick: () => {
-                                    window.open(
-                                      "",
-                                      "_blank"
-                                    );
-                                  },
                                 },
                                 {
                                   title: "Borrowing Optimizer",
+                                  onclick: () => {
+                                    window.open(
+                                      "https://noya-borrow.vercel.app/",
+                                      "_blank"
+                                    );
+                                  },
                                 },
                               ].map((e) =>
                                 (0, a.jsx)(

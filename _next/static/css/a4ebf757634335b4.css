@@ -1,0 +1,528 @@
+.Balances_Balances_container__hrSM_ {
+  margin: 30px 0;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.Balances_Balances_glow__Imtht {
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  background-image: url(/_next/static/media/glow.31a28b99.svg);
+  background-size: 110% 110%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  z-index: 2;
+  top: -60%;
+  left: -20%;
+  opacity: 0.3;
+}
+.Balances_Balances_left_box__7BE_k {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 3;
+}
+.Balances_Balances_right_box__VsFKq {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+}
+.Balances_Balances_left_box_title__mwC3I {
+  height: 40px;
+  margin-bottom: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+.Balances_Balances_left_box_data_container__1_4LJ {
+  height: 195px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.Balances_Balances_portfolio_wrapper__Dtcnw {
+  height: 100%;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  border-radius: 5px;
+  background: linear-gradient(
+    110deg,
+    rgba(125, 111, 246, 0.2) 25%,
+    rgba(88, 225, 217, 0.2) 50%,
+    rgba(125, 111, 246, 0.2) 75%,
+    rgba(88, 225, 217, 0.2)
+  );
+  box-shadow: 0 0 15px rgba(125, 111, 245, 0.25);
+}
+.Balances_Balances_portfolio__h4_XL {
+  height: 100%;
+  width: 100%;
+  background: #19171f;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.Balances_Balances_portfolio_title__KvILI {
+  height: 51px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ceced8;
+  border-bottom: 1px solid #7d6ff540;
+  text-align: center;
+}
+.Balances_Balances_portfolio_balance_box__cVQcM {
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid #7d6ff540;
+  display: flex;
+  align-items: center;
+}
+.Balances_Balances_portfolio_balance_box__cVQcM h3 {
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  background: linear-gradient(90deg, #7d6ff6 -16.48%, #58e1d9 118.64%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.Balances_Balances_portfolio_balance_box_arrow__xJxxP {
+  height: 15px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 10px;
+  position: relative;
+  top: 2px;
+}
+.Balances_Balances_portfolio_balance_box__cVQcM p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.8287px;
+  text-align: right;
+  color: #398d4f;
+  margin-left: 5px;
+  position: relative;
+  top: 3px;
+}
+.Balances_Balances_portfolio_profits_box__kkJYX {
+  height: 84px;
+  width: 100%;
+  display: flex;
+}
+.Balances_Balances_portfolio_profit__EmPTH {
+  height: 100%;
+  width: 50%;
+  border-right: 1px solid #7d6ff540;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Balances_Balances_portfolio_profit__EmPTH div {
+  height: 35px;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+}
+.Balances_Balances_portfolio_profit_arrow__u6X_w {
+  height: 25px;
+  width: 25px;
+}
+.Balances_Balances_portfolio_profit__EmPTH div p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #a5adcf;
+  white-space: nowrap;
+}
+.Balances_Balances_portfolio_profit__EmPTH h3 {
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #46f243;
+  text-align: center;
+  flex: 1;
+}
+.Balances_Balances_datas_box__QRvcd {
+  height: 100%;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Balances_Balances_data_box_wrapper__PxjVV {
+  height: 92px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  border-radius: 5px;
+  background: linear-gradient(
+    110deg,
+    rgba(125, 111, 246, 0.2) 25%,
+    rgba(88, 225, 217, 0.2) 50%,
+    rgba(125, 111, 246, 0.2) 75%,
+    rgba(88, 225, 217, 0.2)
+  );
+  box-shadow: 0 0 15px rgba(125, 111, 245, 0.25);
+}
+.Balances_Balances_data_box__fOs55 {
+  height: 100%;
+  width: 100%;
+  background: #19171f;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.Balances_Balances_data_box_title__JDI87 {
+  height: 42px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  border-bottom: 1px solid #7d6ff540;
+}
+.Balances_Balances_data_box_title__JDI87 div {
+  height: 100%;
+  width: 50%;
+  border-right: 1px solid #7d6ff540;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ceced8;
+}
+.Balances_Balances_data_box_content__gu7UM {
+  height: 50px;
+  width: 100%;
+  display: flex;
+}
+.Balances_Balances_data_box_content__gu7UM div {
+  height: 100%;
+  width: 50%;
+  border-right: 1px solid #7d6ff540;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #7d6ff6 -16.48%, #58e1d9 118.64%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.Balances_Balances_data_box_content__gu7UM div,
+.Balances_Balances_data_box_content__gu7UM p {
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .Balances_Balances_container__hrSM_ {
+    width: 95%;
+  }
+  .Balances_Balances_glow__Imtht {
+    height: 50vw;
+    width: 50vw;
+  }
+  .Balances_Balances_left_box__7BE_k {
+    height: 100%;
+    width: 55%;
+  }
+  .Balances_Balances_left_box_title__mwC3I {
+    height: 20px;
+    font-size: 1.5vw;
+  }
+  .Balances_Balances_left_box_data_container__1_4LJ {
+    height: 85%;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .Balances_Balances_portfolio_wrapper__Dtcnw {
+    height: 100%;
+    width: 48%;
+    padding: 0.08vw;
+    border-radius: 0.5vw;
+    box-shadow: 0 0 1vw rgba(125, 111, 245, 0.25);
+  }
+  .Balances_Balances_portfolio__h4_XL {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5vw;
+  }
+  .Balances_Balances_portfolio_title__KvILI {
+    height: 25%;
+    width: 100%;
+    border-radius: 0.5vw 0.5vw 0 0;
+    font-size: 1.2vw;
+    border-bottom-width: 0.1vw;
+  }
+  .Balances_Balances_portfolio_balance_box__cVQcM {
+    height: 35%;
+    width: 100%;
+    border-bottom-width: 0.1vw;
+  }
+  .Balances_Balances_portfolio_balance_box__cVQcM h3 {
+    font-size: 2vw;
+  }
+  .Balances_Balances_portfolio_balance_box_arrow__xJxxP {
+    height: 1.4vw;
+    margin-left: 0.8vw;
+    top: 0.1vw;
+  }
+  .Balances_Balances_portfolio_balance_box__cVQcM p {
+    font-size: 1vw;
+    margin-left: 0.8vw;
+    top: 0.25vw;
+  }
+  .Balances_Balances_portfolio_profits_box__kkJYX {
+    height: 40%;
+    width: 100%;
+  }
+  .Balances_Balances_portfolio_profit__EmPTH {
+    height: 100%;
+    width: 50%;
+    border-right-width: 0.1vw;
+  }
+  .Balances_Balances_portfolio_profit__EmPTH div {
+    height: 3vw;
+    width: 80%;
+  }
+  .Balances_Balances_portfolio_profit_arrow__u6X_w {
+    height: 2vw;
+    width: 2vw;
+  }
+  .Balances_Balances_portfolio_profit__EmPTH div p {
+    font-size: 1.2vw;
+    color: #a5adcf;
+  }
+  .Balances_Balances_portfolio_profit__EmPTH h3 {
+    font-size: 1.5vw;
+  }
+  .Balances_Balances_datas_box__QRvcd {
+    height: 100%;
+    width: 50.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .Balances_Balances_data_box_wrapper__PxjVV {
+    height: 48%;
+    width: 100%;
+    padding: 0.08vw;
+    border-radius: 0.5vw;
+    box-shadow: 0 0 1vw rgba(125, 111, 245, 0.25);
+  }
+  .Balances_Balances_data_box__fOs55 {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5vw;
+  }
+  .Balances_Balances_data_box_title__JDI87 {
+    height: 45%;
+    width: 100%;
+    border-radius: 0.5vw 0.5vw 0 0;
+    border-bottom-width: 0.1vw;
+  }
+  .Balances_Balances_data_box_title__JDI87 div {
+    height: 100%;
+    width: 50%;
+    border-right-width: 0.1vw;
+    font-size: 1.3vw;
+  }
+  .Balances_Balances_data_box_content__gu7UM {
+    height: 55%;
+    width: 100%;
+  }
+  .Balances_Balances_data_box_content__gu7UM div {
+    height: 100%;
+    width: 50%;
+    border-right-width: 0.1vw;
+    font-size: 2vw;
+  }
+  .Balances_Balances_data_box_content__gu7UM div,
+  .Balances_Balances_data_box_content__gu7UM p {
+    font-size: 2vw;
+  }
+  .Balances_Balances_right_box__VsFKq {
+    height: 80%;
+    width: 45%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Balances_Balances_container__hrSM_ {
+    width: 100%;
+  }
+  .Balances_Balances_glow__Imtht {
+    display: none;
+  }
+  .Balances_Balances_left_box__7BE_k {
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .Balances_Balances_left_box_title__mwC3I {
+    display: none;
+  }
+  .Balances_Balances_left_box_data_container__1_4LJ {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Balances_Balances_right_box__VsFKq {
+    display: none;
+  }
+  .Balances_Balances_portfolio_wrapper__Dtcnw {
+    height: 160px;
+    width: 340px;
+    border-radius: 4.2px;
+  }
+  .Balances_Balances_portfolio_title__KvILI {
+    height: 46px;
+    width: 100%;
+    border-radius: 4.2px 4.2px 0 0;
+    font-size: 14px;
+  }
+  .Balances_Balances_portfolio_balance_box__cVQcM {
+    height: 50px;
+    width: 100%;
+  }
+  .Balances_Balances_portfolio_balance_box__cVQcM h3 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .Balances_Balances_portfolio_balance_box_arrow__xJxxP {
+    height: 15px;
+    margin-left: 10px;
+    top: 0;
+  }
+  .Balances_Balances_portfolio_balance_box__cVQcM p {
+    font-weight: 700;
+    font-size: 12px;
+    margin-left: 7px;
+    top: 1px;
+  }
+  .Balances_Balances_portfolio_profits_box__kkJYX {
+    height: 64px;
+    width: 100%;
+  }
+  .Balances_Balances_portfolio_profit__EmPTH {
+    height: 100%;
+    width: 50%;
+  }
+  .Balances_Balances_portfolio_profit__EmPTH div {
+    height: 32px;
+    width: 68%;
+  }
+  .Balances_Balances_portfolio_profit_arrow__u6X_w {
+    height: 22.5px;
+    width: 22.5px;
+  }
+  .Balances_Balances_portfolio_profit__EmPTH div p {
+    font-size: 14px;
+    color: #a5adcf;
+  }
+  .Balances_Balances_portfolio_profit__EmPTH h3 {
+    font-size: 16px;
+    color: #46f243;
+  }
+  .Balances_Balances_datas_box__QRvcd {
+    display: none;
+  }
+}
+.OmniDescription_OmniDesc_container__QSCgm {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100vw;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.OmniDescription_OmniDesc_desc_box__k0LcX {
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.OmniDescription_OmniDesc_desc_box__k0LcX p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #ceced8;
+  margin-bottom: 25px;
+}
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .OmniDescription_OmniDesc_container__QSCgm {
+    width: 100vw;
+    padding-bottom: 5vw;
+  }
+  .OmniDescription_OmniDesc_desc_box__k0LcX {
+    width: 95%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .OmniDescription_OmniDesc_desc_box__k0LcX p {
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .OmniDescription_OmniDesc_container__QSCgm {
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100vw;
+    z-index: 3;
+  }
+  .OmniDescription_OmniDesc_desc_box__k0LcX {
+    width: 340px;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-bottom: 30px;
+  }
+  .OmniDescription_OmniDesc_desc_box__k0LcX p {
+    font-size: 14px;
+    color: #ceced8;
+    margin-bottom: 20px;
+  }
+}

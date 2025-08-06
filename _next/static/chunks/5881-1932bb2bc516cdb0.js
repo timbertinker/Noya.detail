@@ -559,7 +559,7 @@
                                   title: "Agent",
                                   onclick: () => {
                                     window.open(
-                                      "https://agent.noya.ai",
+                                      "",
                                       "_blank"
                                     );
                                   },
